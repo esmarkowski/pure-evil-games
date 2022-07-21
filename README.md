@@ -1,5 +1,9 @@
-# Procedural Generation
+<p align="center">
 <img width="401" alt="Screen Shot 2022-07-21 at 11 51 59 AM" src="https://user-images.githubusercontent.com/4501/180258395-e03f5283-bfb2-4906-a225-379d4b1a89ed.png">
+</p>
+
+
+# Procedural Generation
 
 An exploration of procedural generation tools. 
 
