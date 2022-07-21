@@ -1,0 +1,35 @@
+{
+  "name": "three_sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "./build/pureevil.module.js",
+  "exports": {
+    ".": {
+      "import": "./build/pureevil.module.js",
+      "require": "./build/pureevil.cjs"
+    },
+    "./lib/*": "./lib/*"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3-delaunay": "^6.0.2",
+    "html-webpack-plugin": "^5.5.0",
+    "three": "^0.142.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  }
+}
