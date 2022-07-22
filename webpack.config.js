@@ -4,8 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: {
-    pureevil: './lib/com/pureevil/Main.js',
-    treeshader: './lib/examples/shaders/TreeShader.js',
+    pureevil: './lib/com/pureevil/Main.js'
   },
   devtool: 'eval',
   devServer: {
